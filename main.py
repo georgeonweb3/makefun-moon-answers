@@ -5,33 +5,38 @@ Writes a single line, in the voice of the Moon replying at last
 to the wishes, howls and late-night promises of everyone staring
 up at it, to /output/entry.txt:
 
-    Every couple under me promises forever at midnight. I have
-    watched four billion midnights. Forever, it turns out, lasts
-    about eleven months.
+    You spent four thousand years calling me cheese, then sent
+    twelve men to walk on me and left their golf balls behind.
+    I am not your fridge. Stop opening me at midnight.
 
-Why it lands: the Moon answers the midnight promises directly
-(setup), with four billion midnights of watching behind it
-(turn) — and the payoff is a hard number, eleven months, landing
-in the last four words. Three beats, two concrete anchors (four
-billion midnights, eleven months), 140 characters, in the Moon's
-own wry, old, tired-of-being-wished-upon voice. No celestial
-service-desk log, no wish-queue bookkeeping, no explaining the
-joke: the Moon never says it is funny, it just reports the data.
-
-Python 3.13, standard library only, no network, deterministic.
+Why it lands: the Moon answers four thousand years of
+name-calling and midnight visits with one weary complaint
+(setup), then the evidence — twelve men, golf balls left behind
+(turn) — and the payoff is a house rule in the last four words,
+"Stop opening me at midnight." Three beats, four concrete
+anchors (four thousand years, twelve men, golf balls, midnight),
+168 characters, in the Moon's own wry, old, tired-of-being-
+wished-upon voice. No explaining the joke: the Moon never says
+it is funny, it just reports the damage.
 
 Selected by a blind pairwise tournament (fresh Gemini judge,
-15 pairs, 6 candidates): this line won 5/5, then won again under
-swapped labels against the runner-up. An extra-mile tightening
-was tested and rejected by the same judge — the original stands.
+15 pairs, 6 candidates from 4 angles): this line won 5/5 with
+the highest margin sum (18), then beat the lane's earlier
+tournament winner head-to-head in both label orders (margin 3
+each). An extra-mile pass that added an explicit wishes beat
+was tested against the original and rejected by the same judge
+— it "ruins a clean punchline by dragging" — so the original
+stands.
+
+Python 3.13, standard library only, no network, deterministic.
 """
 
 import os
 
 ENTRY = (
-    "Every couple under me promises forever at midnight. "
-    "I have watched four billion midnights. Forever, it turns "
-    "out, lasts about eleven months."
+    "You spent four thousand years calling me cheese, then sent "
+    "twelve men to walk on me and left their golf balls behind. "
+    "I am not your fridge. Stop opening me at midnight."
 )
 
 OUTPUT_PATH = os.environ.get("ENTRY_OUTPUT", "/output/entry.txt")
@@ -41,7 +46,7 @@ def main() -> None:
     # Gate self-check: /output/entry.txt must be UTF-8 text of
     # 1 to 240 characters, not only whitespace, and one line:
     # an embedded newline would break the single-line read.
-    # Verified live: 140 characters, single line, no trailing newline.
+    # Verified live: 168 characters, single line, no trailing newline.
     assert 1 <= len(ENTRY) <= 240, f"entry is {len(ENTRY)} chars, gate wants 1-240"
     assert "\n" not in ENTRY and "\r" not in ENTRY, "entry must be a single line"
     assert ENTRY.strip(), "entry must not be only whitespace"

@@ -6,11 +6,11 @@
 
 One line in the voice of the Moon, replying at last to the wishes, howls and late-night promises of everyone staring up at it. Free to enter.
 
-The entry (140 characters):
+The entry (168 characters):
 
-> Every couple under me promises forever at midnight. I have watched four billion midnights. Forever, it turns out, lasts about eleven months.
+> You spent four thousand years calling me cheese, then sent twelve men to walk on me and left their golf balls behind. I am not your fridge. Stop opening me at midnight.
 
-The Moon answers the midnight promises directly, with four billion midnights of watching behind it — and the payoff is a hard number, eleven months, landing in the last four words. Three beats, two concrete anchors (four billion midnights, eleven months), in the Moon's own wry, old, tired-of-being-wished-upon voice. No celestial service-desk log, no wish-queue bookkeeping, no explaining the joke.
+The Moon answers four thousand years of name-calling and midnight visits with one weary complaint, then the evidence — twelve men, golf balls left behind — and the payoff is a house rule in the last four words. Three beats, four concrete anchors (four thousand years, twelve men, golf balls, midnight), in the Moon's own wry, old, tired-of-being-wished-upon voice. No explaining the joke.
 
 ## Run it
 

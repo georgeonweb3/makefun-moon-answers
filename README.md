@@ -12,6 +12,10 @@ The entry (168 characters):
 
 The Moon answers four thousand years of name-calling and midnight visits with one weary complaint, then the evidence — twelve men, golf balls left behind — and the payoff is a house rule in the last four words. Three beats, four concrete anchors (four thousand years, twelve men, golf balls, midnight), in the Moon's own wry, old, tired-of-being-wished-upon voice. No explaining the joke.
 
+## Selection
+
+Blind pairwise tournament, fresh Gemini judge, 15 pairs, 6 candidates from 4 angles (absurd, dark/deadpan, specific/concrete, technical/insider). This line won 5/5 with the highest margin sum (18), then beat the lane's earlier tournament winner head-to-head in both label orders (margin 3 each). An extra-mile pass that added an explicit wishes beat was tested against the original and rejected by the same judge — it dragged the punchline — so the original stands.
+
 ## Run it
 
 ```sh
